@@ -16,37 +16,32 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <div class="overall">
-        <div class="wrapper row row-cols-lg-2">
-            <div class="header d-flex flex-lg-column col-lg-6">
-                <div class="logo d-flex justify-content-center align-items-center col-4">
-                    <h2>VB.</h2>
-                </div>
-                <div class="name d-flex flex-column justify-content-center
-                 col-8">
-                    <h3>Adut Akech</h3><span id="lname">
-                        <p id="tname">Boir</p>
-                    </span>
-                </div>
-            </div>
-            <div class="dark col-lg-6">
-                <img src="./img/AdutRedo.jpg" alt="adut">
-            </div>
+<body class="d-flex flex-column">
+    <div class="header d-flex flex-lg-column pt-3 pb-1 col-lg-6">
+        <div class="logo d-flex justify-content-center align-items-center col-4">
+            <h2>VB.</h2>
         </div>
-        <div class="footer d-flex align-items-center justify-content-between px-4">
-            <div>
-                <p id="logoname">VinBura</p>
-            </div>
-            <div>
-                <p id="number">01</p>
-            </div>
+        <div class="name d-flex flex-column justify-content-center align-items-center col-8">
+            <h3 id="lname">Adut Akech</h3>
+                <p id="lname">Boir</p>
         </div>
     </div>
+
+    <div class="page-content row row-cols-lg-2 flex-grow-1">
+        <div class="dark col-lg-6 d-flex align-items-center">
+            <img src="./img/AdutRedo.jpg" class="img-fluid" alt="adut">
+        </div>
+    </div>
+    <footer id="sticky-footer" class="flex-shrink-0 py-3 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; Your Website</small>
+        </div>
+    </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
