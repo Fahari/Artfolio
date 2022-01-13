@@ -16,27 +16,39 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body class="d-flex flex-column">
-    <div class="header d-flex flex-lg-column pt-3 pb-1 col-lg-6">
-        <div class="logo d-flex justify-content-center align-items-center col-4">
-            <h2>VB.</h2>
-        </div>
-        <div class="name d-flex flex-column justify-content-center align-items-center col-8">
-            <h3 id="lname">Adut Akech</h3>
-                <p id="lname">Boir</p>
-        </div>
-    </div>
+<body>
+    <div class="box">
+        <div class="wrapper d-flex flex-column flex-lg-row p-lg-5">
+            <div class="header d-flex flex-lg-column justify-content-lg-around align-items-center col-lg-6 pt-3 pb-1">
+                <div class="logo d-flex justify-content-center align-items-center col-4">
+                    <h2>VB.</h2>
+                </div>
+                <div class="name d-flex flex-column justify-content-around align-items-center col-8">
+                    <div>
+                        <h3 id="lname">Adut Akech</h3>
+                        <p id="lname">Boir</p>
+                    </div>
+                    <div class="brand pt-5">
+                        <p>Vinbura</p>
+                    </div>
 
-    <div class="page-content row row-cols-lg-2 flex-grow-1">
-        <div class="dark col-lg-6 d-flex align-items-center">
-            <img src="./img/AdutRedo.jpg" class="img-fluid" alt="adut">
+                </div>
+            </div>
+
+            <div class="page-content row flex-grow-1 col-lg-6">
+                <div class="dark d-flex justify-content-center align-items-center py-lg-5">
+                    <img src="./img/AdutRedo.jpg" class="img-fluid" alt="adut">
+                </div>
+            </div>
+            <footer id="sticky-footer" class="flex-shrink-0 py-3 bg-dark text-white d-lg-none">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <p id="logoname">Vinbura</p>
+                    <p id="number">01</p>
+                </div>
+            </footer>
         </div>
+
     </div>
-    <footer id="sticky-footer" class="flex-shrink-0 py-3 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>Copyright &copy; Your Website</small>
-        </div>
-    </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
