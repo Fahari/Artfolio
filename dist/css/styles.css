@@ -11303,6 +11303,8 @@ body {
 .dark{
   position: relative;
   background-color: #282323;
+  min-width: 100%;
+  height: auto;
 }
 .dark > p {
   position: absolute;
@@ -11320,6 +11322,14 @@ body {
     display: none;
   }
   }
+  /* @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+    .wrapper{
+      flex-direction: column !important;
+    }
+    .wrapper > * {
+
+    }
+  } */
 
 /* #lname{
   letter-spacing: 0.1rem;
