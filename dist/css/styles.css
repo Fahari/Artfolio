@@ -11311,7 +11311,7 @@ body {
     padding: 2rem;
     left: 75%;
     top: 92%;
-    background-image: url('/dist/assets/left.png');
+    background-image: url('/dist/img/icons/left.png');
     background-color: #232530;
     background-repeat: no-repeat;
     background-size: 20%;
@@ -11328,7 +11328,7 @@ body {
     padding: 2rem;
     right: 75%;
     top: 92%;
-    background-image: url('/dist/assets/right.png');
+    background-image: url('/dist/img/icons/right.png');
     background-color: #1E1F25;
     background-repeat: no-repeat;
     background-size: 20%;
